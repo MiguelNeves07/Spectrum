@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spectrum CSS Test Page - Dark Mode</title>
+  <!-- Link to Spectrum Dark Theme -->
+  <link rel="stylesheet" href="spectrum-dark.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Spectrum CSS</h1>
+      <p>A modern, responsive light and dark theme CSS collection.</p>
+    </header>
+
+    <section>
+      <h2>Typography</h2>
+      <p>This is a paragraph demonstrating the body text style. <a href="#">This is a link</a> for testing.</p>
+      <p>Inline code example: <code>console.log('Hello Spectrum!');</code></p>
+      <pre><code>
+function greet() {
+  console.log("Hello Spectrum!");
+}
+greet();
+      </code></pre>
+    </section>
+
+    <section>
+      <h2>Buttons</h2>
+      <button type="button">Primary Button</button>
+      <button type="button" disabled style="opacity: 0.6; cursor: not-allowed;">Disabled Button</button>
+    </section>
+
+    <section>
+      <h2>Form Elements</h2>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" placeholder="Your name" /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" placeholder="you@example.com" /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" placeholder="Your message here..."></textarea><br /><br />
+
+        <label for="options">Select an option:</label><br />
+        <select id="options" name="options">
+          <option value="">-- Choose --</option>
+          <option value="1">Option One</option>
+          <option value="2">Option Two</option>
+          <option value="3">Option Three</option>
+        </select><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Lists and Tables</h2>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ul>
+
+      <h3>Ordered List</h3>
+      <ol>
+        <li>First step</li>
+        <li>Second step</li>
+        <li>Third step</li>
+      </ol>
+
+      <h3>Table</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Status</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Responsive Design</td>
+            <td>Complete</td>
+            <td>Works on all screen sizes</td>
+          </tr>
+          <tr>
+            <td>Light Theme</td>
+            <td>Complete</td>
+            <td>Clean and bright</td>
+          </tr>
+          <tr>
+            <td>Dark Theme</td>
+            <td>Complete</td>
+            <td>Elegant and easy on the eyes</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <p>© 2025 Spectrum UI. Created with ❤️.</p>
+    </footer>
+  </div>
+</body>
+</html>
